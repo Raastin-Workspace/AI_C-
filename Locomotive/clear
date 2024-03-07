@@ -1,0 +1,11 @@
+#! /bin/sh
+
+rm -rf ./LIB
+
+cd LocomotiveSrc
+make clean
+make distclean
+cd ../LocomotiveLib
+make clean
+make distclean
+
